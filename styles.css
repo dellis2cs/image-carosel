@@ -1,0 +1,47 @@
+.carosel {
+  border: 2px solid black;
+  width: 80vw;
+  height: 400px;
+  display: flex;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+}
+
+.next,
+.back {
+  font-size: 24px;
+}
+
+.images {
+  border: 2px solid black;
+  height: 100%;
+  width: 80%;
+  display: flex;
+}
+
+.img1 {
+  background-color: red;
+}
+
+.img2 {
+  background-color: blue;
+}
+
+.img3 {
+  background-color: green;
+}
+
+.img4 {
+  background-color: orange;
+}
+
+.img5 {
+  background-color: pink;
+}
+
+.active {
+  width: 100%;
+}
